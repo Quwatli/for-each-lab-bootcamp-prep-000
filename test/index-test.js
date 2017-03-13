@@ -1,5 +1,5 @@
 describe('index', function() {
-  describe('iterativeLog(array)', function() {
+/*  describe('iterativeLog(array)', function() {
     it('logs each element with the format `${index}: ${element}`', function() {
       const log = expect.spyOn(console, 'log').andCallThrough()
 
@@ -13,7 +13,7 @@ describe('index', function() {
       expect.restoreSpies()
     })
   })
-
+*/
   describe('iterate(callback)', function() {
     it('calls the callback on an internal array, then returns the array', function() {
       const forEach = expect.spyOn(Array.prototype, 'forEach').andCallThrough()
